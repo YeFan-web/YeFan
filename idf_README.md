@@ -2,5 +2,10 @@
 ====
 环境
 -----
-python 3.8.15
-pytorch 1.7.1+cu110 torchvision 0.8.2+cu110
+```
+numpy==1.24.4
+opencv_python==4.10.0.84
+Pillow==10.4.0
+torch==2.2.0
+torchvision==0.17.0
+```
