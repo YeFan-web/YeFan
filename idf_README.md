@@ -15,3 +15,17 @@ torchvision==0.17.0
 ```python
 pyhon inference_one_pic.py
 ```
+批量推理图片
+-------
+1.在prepare_cls_img.py中把需要分类的文件夹路径输入root_dir
+```python
+python prepare_cls_img.py
+```
+2.在prepare_identification_img.py中把需要识别的图片的文件夹路径分别输入root_dir1,root_dir2 
+```python
+python prepare_identification_img.py
+```
+2.执行inference.py
+```python
+python inference.py
+```
