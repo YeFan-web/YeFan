@@ -29,3 +29,8 @@ python prepare_identification_img.py
 ```python
 python inference.py
 ```
+使用交互界面推理图片
+-------
+```python
+python interface.py
+```
